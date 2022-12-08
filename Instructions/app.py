@@ -40,7 +40,7 @@ def home():
         f'/api/v1.0/date (Returns a list of minimum, average and maximum temperature found at weather station (USC00519281) from a given starting posdateition to 2017-8-23.<br/>'
         f'--For this api please input a start date in the form of YYYY-M(M)-D(D).The start date must be later than or equal to 2016-8-23)<br/>'
         f'/api/v1.0/date_end (Returns a list of minimum, average and maximum temperature found at weather station (USC00519281).<br/>' 
-        f'--Starting and ending dates are provided by the user and all dates must fall between 2016-8-23 and 2017-8-23. Input a start date and end date in the form of YYYY-M(M)-D(D).<br/>'
+        f'--Starting and ending dates are provided by the user and all dates must fall between 2010-1-1 and 2017-8-23. Input a start date and end date in the form of YYYY-M(M)-D(D).<br/>'
         f'--An example of of this api is = http://localhost:5000/api/v1.0/date_end/2016-8-30/2017-6-11')
 
 ########################################################################################
